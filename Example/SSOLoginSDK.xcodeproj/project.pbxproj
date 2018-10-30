@@ -129,6 +129,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				23DA2B5C59D65BBB770F79EC /* [CP] Embed Pods Frameworks */,
+				4237130FE009D27FD28FC41E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,18 +193,34 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SSOLoginSDK_Tests/Pods-SSOLoginSDK_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/SSOLoginSDK/SSOLoginSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSOLoginSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSOLoginSDK_Tests/Pods-SSOLoginSDK_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4237130FE009D27FD28FC41E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SSOLoginSDK_Tests/Pods-SSOLoginSDK_Tests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SSOLoginSDK/MAResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MAResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSOLoginSDK_Tests/Pods-SSOLoginSDK_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B7CD488069C0609CE8DE3CC /* [CP] Check Pods Manifest.lock */ = {

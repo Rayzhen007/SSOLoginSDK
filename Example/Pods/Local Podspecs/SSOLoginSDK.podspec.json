@@ -1,6 +1,6 @@
 {
   "name": "SSOLoginSDK",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of SSOLoginSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Rayzhen007/SSOLoginSDK",
@@ -9,14 +9,39 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Rayzhen007": "849708004@qq.com"
+    "Rayz_17": "Rayz_17@126.com"
   },
   "source": {
     "git": "https://github.com/Rayzhen007/SSOLoginSDK.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SSOLoginSDK/Classes/**/*"
+  "resource_bundles": {
+    "MAResource": [
+      "SSOLoginSDK/Assets/MAResource/*.png"
+    ]
+  },
+  "source_files": "SSOLoginSDK/Classes/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CFNetwork",
+    "CoreGraphics",
+    "CoreTelephony",
+    "MobileCoreServices",
+    "Security",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "sqlite3.0",
+    "sqlite3",
+    "xml2",
+    "z.1.2.5",
+    "z.1"
+  ],
+  "vendored_libraries": "SSOLoginSDK/MobileArk-sdk-ios-4.5.5-build.a",
+  "static_framework": true,
+  "requires_arc": true
 }

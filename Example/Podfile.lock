@@ -1,7 +1,7 @@
 PODS:
   - Expecta (1.0.6)
   - Specta (1.0.7)
-  - SSOLoginSDK (0.1.0)
+  - SSOLoginSDK (1.0.0)
 
 DEPENDENCIES:
   - Expecta
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  SSOLoginSDK: 4124f77127789acfef3618b9f30972fe721fbd75
+  SSOLoginSDK: 762220c9a74f31099eb1e0647f73b9328fd8b87c
 
 PODFILE CHECKSUM: 6f8e96d9c31d5d2abbdcb2a850c0dd8e5c8b7bf0
 
