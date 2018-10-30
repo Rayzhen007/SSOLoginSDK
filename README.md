@@ -22,7 +22,7 @@ pod 'SSOLoginSDK'
 
 ## Author
 
-Rayzhen007, 849708004@qq.com
+Rayz_17, Rayz_17@126.com
 
 ## License
 

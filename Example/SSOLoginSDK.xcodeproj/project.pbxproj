@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0290261D9174AA5BD99F518F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0290261D9174AA5BD99F518F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -26,8 +26,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		96390E3A7CEED1B7F1ABC9B1 /* SSOLoginSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSOLoginSDK.podspec; path = ../SSOLoginSDK.podspec; sourceTree = "<group>"; };
-		D371B1292E5E610C6F57333A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		96390E3A7CEED1B7F1ABC9B1 /* SSOLoginSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSOLoginSDK.podspec; path = ../SSOLoginSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D371B1292E5E610C6F57333A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D69A5C1017D9291B65872390 /* Pods_SSOLoginSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSOLoginSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F300999DCB774646F6FDA87C /* Pods-SSOLoginSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSOLoginSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSOLoginSDK_Tests/Pods-SSOLoginSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F671E44938B35E9495BB3294 /* Pods-SSOLoginSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSOLoginSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSOLoginSDK_Tests/Pods-SSOLoginSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };

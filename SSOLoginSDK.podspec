@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSOLoginSDK'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of SSOLoginSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -24,19 +24,27 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Rayzhen007/SSOLoginSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Rayzhen007' => '849708004@qq.com' }
+  s.author           = { 'Rayz_17' => 'Rayz_17@126.com' }
   s.source           = { :git => 'https://github.com/Rayzhen007/SSOLoginSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SSOLoginSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SSOLoginSDK' => ['SSOLoginSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.resources = '资源文件png/bundle'
+  s.resource_bundles = {
+    'MAResource' => ['SSOLoginSDK/Assets/**/*.png']
+  }
+  
+  s.source_files = 'SSOLoginSDK/Classes/**/*'  # '源文件'
+  s.public_header_files = 'Pod/Classes/**/*.h'  # '头文件'
+  s.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'CoreGraphics', 'CoreTelephony', 'MobileCoreServices', 'Security', 'SystemConfiguration'
+  s.libraries = 'sqlite3.0', 'sqlite3', 'xml2', 'z.1.2.5', 'z.1'
+  s.vendored_libraries = 'MobileArk-sdk-ios-4.5.5-build.a'
+  
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  
+  
+  s.static_framework = true
+  s.requires_arc = true
 end
