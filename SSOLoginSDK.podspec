@@ -35,16 +35,20 @@ TODO: Add long description of the pod here.
     'MAResource' => ['SSOLoginSDK/Assets/**/*.png']
   }
   
-  s.source_files = 'SSOLoginSDK/Classes/**/*'  # '源文件'
-  s.public_header_files = 'Pod/Classes/**/*.h'  # '头文件'
+  s.source_files = 'SSOLoginSDK/Classes/*.h'  # '源文件'
+  # s.public_header_files = 'Pod/Classes/**/*.h'  # '头文件'
+  s.public_header_files = 'SSOLoginSDK/Classes/*.h'
   s.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'CoreGraphics', 'CoreTelephony', 'MobileCoreServices', 'Security', 'SystemConfiguration'
   s.libraries = 'sqlite3.0', 'sqlite3', 'xml2', 'z.1.2.5', 'z.1'
-  s.vendored_libraries = 'MobileArk-sdk-ios-4.5.5-build.a'
+  s.vendored_libraries = 'SSOLoginSDK/*.a'
   
   # s.dependency 'AFNetworking', '~> 2.3'
   
   
   
-  s.static_framework = true
+  # s.static_framework = true
   s.requires_arc = true
+  
+  # -ObjC
+  # -lxml2
 end
