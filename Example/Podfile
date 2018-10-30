@@ -1,0 +1,7 @@
+use_frameworks!
+target 'SSOLoginSDK_Tests' do
+  pod 'SSOLoginSDK', :path => '../'
+  
+  pod 'Specta'
+    pod 'Expecta'
+end
