@@ -22,11 +22,9 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/Rayzhen007/SSOLoginSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rayz_17' => 'Rayz_17@126.com' }
   s.source           = { :git => 'https://github.com/Rayzhen007/SSOLoginSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
   
@@ -40,16 +38,15 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'  # '头文件'
   s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'CoreGraphics', 'CoreTelephony', 'MobileCoreServices', 'Security', 'SystemConfiguration'
-
-  s.vendored_libraries = 'SSOLoginSDK/MobileArk-sdk-ios-4.5.5-build.a'
   s.ios.preserve_paths      = 'SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a'
   s.ios.vendored_libraries  = 'SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a'
   s.vendored_libraries = 'SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a'
   s.libraries = 'mobileArk-sdk-ios-4.5.5-build', 'sqlite3.0', 'sqlite3', 'xml2', 'z.1.2.5', 'z.1'
+  
   # s.static_framework = true
-  s.requires_arc = true
-
-    s.pod_target_xcconfig = {
-    'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
-    }
+  s.requires_arc = false
+  
+s.pod_target_xcconfig = {
+'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
+}
 end
