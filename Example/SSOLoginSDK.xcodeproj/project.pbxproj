@@ -212,11 +212,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SSOLoginSDK_Tests/Pods-SSOLoginSDK_Tests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/SSOLoginSDK/MAResource.bundle",
+				"${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle@2x.png",
+				"${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle@3x.png",
+				"${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue@2x.png",
+				"${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue@3x.png",
+				"${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue_small@2x.png",
+				"${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_red@2x.png",
+				"${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_red@3x.png",
+				"${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/pad_muplus_listarrow@2x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MAResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mobark_more_circle@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mobark_more_circle@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mobark_more_circle_blue@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mobark_more_circle_blue@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mobark_more_circle_blue_small@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mobark_more_circle_red@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mobark_more_circle_red@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pad_muplus_listarrow@2x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -299,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

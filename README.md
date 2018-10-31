@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/SSOLoginSDK.svg?style=flat)](https://cocoapods.org/pods/SSOLoginSDK)
 [![Platform](https://img.shields.io/cocoapods/p/SSOLoginSDK.svg?style=flat)](https://cocoapods.org/pods/SSOLoginSDK)
 
+## Tips
+Doesn't support i386/x86_64( simulator)!
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

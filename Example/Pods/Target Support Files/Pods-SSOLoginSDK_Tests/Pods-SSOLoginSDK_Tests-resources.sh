@@ -92,10 +92,24 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SSOLoginSDK/MAResource.bundle"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle@2x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle@3x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue@2x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue@3x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue_small@2x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_red@2x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_red@3x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/pad_muplus_listarrow@2x.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SSOLoginSDK/MAResource.bundle"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle@2x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle@3x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue@2x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue@3x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_blue_small@2x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_red@2x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/mobark_more_circle_red@3x.png"
+  install_resource "${PODS_ROOT}/../../SSOLoginSDK/Assets/MAResource/pad_muplus_listarrow@2x.png"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -30,24 +30,26 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   
+  s.resources = 'SSOLoginSDK/Assets/MAResource/*.png'
   # s.resources = '资源文件png/bundle'
-  s.resource_bundles = {
-    'MAResource' => ['SSOLoginSDK/Assets/MAResource/*.png']
-  }
+  # s.resource_bundles = {
+  #   'MAResource' => ['SSOLoginSDK/Assets/MAResource/*.png']
+  # }
   
   s.source_files = 'SSOLoginSDK/Classes/*.h'  # '源文件'
   # s.public_header_files = 'Pod/Classes/**/*.h'  # '头文件'
+  s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'CoreGraphics', 'CoreTelephony', 'MobileCoreServices', 'Security', 'SystemConfiguration'
-  s.libraries = 'sqlite3.0', 'sqlite3', 'xml2', 'z.1.2.5', 'z.1'
+
   s.vendored_libraries = 'SSOLoginSDK/MobileArk-sdk-ios-4.5.5-build.a'
-  
-  # s.dependency 'AFNetworking', '~> 2.3'
-  
-  
-  
-  s.static_framework = true
+  s.ios.preserve_paths      = 'SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a'
+  s.ios.vendored_libraries  = 'SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a'
+  s.vendored_libraries = 'SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a'
+  s.libraries = 'mobileArk-sdk-ios-4.5.5-build', 'sqlite3.0', 'sqlite3', 'xml2', 'z.1.2.5', 'z.1'
+  # s.static_framework = true
   s.requires_arc = true
-  
-  # -ObjC
-  # -lxml2
+
+    s.pod_target_xcconfig = {
+    'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
+    }
 end
