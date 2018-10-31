@@ -31,13 +31,21 @@
     "Security",
     "SystemConfiguration"
   ],
+  "vendored_libraries": "SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a",
+  "ios": {
+    "preserve_paths": "SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a",
+    "vendored_libraries": "SSOLoginSDK/libmobileArk-sdk-ios-4.5.5-build.a"
+  },
   "libraries": [
+    "mobileArk-sdk-ios-4.5.5-build",
     "sqlite3.0",
     "sqlite3",
     "xml2",
     "z.1.2.5",
     "z.1"
   ],
-  "vendored_libraries": "SSOLoginSDK/MobileArk-sdk-ios-4.5.5-build.a",
-  "requires_arc": true
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "ARCHS[sdk=iphonesimulator*]": "$(ARCHS_STANDARD_64_BIT)"
+  }
 }
