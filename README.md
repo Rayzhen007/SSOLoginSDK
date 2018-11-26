@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SSOLoginSDK.svg?style=flat)](https://cocoapods.org/pods/SSOLoginSDK)
 
 ## Tips
-Doesn't support i386/x86_64( simulator)!
+Don't support i386/x86_64( simulator)!
 
 ## Example
 
